@@ -5,7 +5,7 @@ async function fetchTournaments(){
     try {
 
         const response = await fetch(
-            "http://localhost:5000/api/tournaments"
+            "https://global-esports-api.onrender.com/api/tournaments"
         );
 
         const tournaments = await response.json();

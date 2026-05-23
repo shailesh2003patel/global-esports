@@ -56,7 +56,7 @@ form.addEventListener("submit", async (e) => {
 
         const response = await fetch(
 
-            "http://localhost:5000/api/tournaments/create",
+            "http://https://global-esports-api.onrender.com/api/tournaments/create",
 
             {
                 method: "POST",

@@ -16,7 +16,7 @@ async function fetchMyMatches(){
 
         const response = await fetch(
 
-            "http://localhost:5000/api/tournaments/my-matches",
+            "https://global-esports-api.onrender.com/api/tournaments/my-matches",
 
             {
                 headers: {
